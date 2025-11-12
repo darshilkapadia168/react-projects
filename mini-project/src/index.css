@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  /* font-style: normal; */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  height: 330px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.top img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+}
+
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.center h3 span {
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.center .tag {
+  display: flex;
+  margin-top: 8px;
+  gap: 5px;
+}
+
+.center .tag h4 {
+  font-size: 12px;
+  border: 1px solid #b1b1b1;
+  padding: 3px 6px;
+  font-weight: 500;
+  background-color: #dadada;
+  color: #111;
+}
+
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #b1b1b1ad;
+  padding-top: 10px;
+}
+
+.bottom .left h3{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.bottom .left P{
+  font-size: 10px;
+  color: #8b8b8b
+}
+
+.bottom button{
+  background-color: #111;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
